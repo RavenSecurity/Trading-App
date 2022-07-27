@@ -3,8 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <a>For developers</a>
-      <a>Contact</a>
+      
       <br></br>
       <br></br>
       <p>At eu, fringilla quis at ornare. Nec sagittis, in cras non mi.</p>

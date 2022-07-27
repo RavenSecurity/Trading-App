@@ -11,35 +11,19 @@ function App() {
   return (
     <div>
       <>
+      <nav>
+      <h1><Link to="/">Home</Link></h1>
 
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        
-      <h1>
-      <Link to="/">Home</Link>
-      </h1>
-
-      <a>
-      <Link to="/pricelist">Price list</Link>
-      </a>
-
-
-
+      <a><Link to="/pricelist">Price list</Link></a>
+      <a>For developers</a>
+      <a>Contact</a>
+      
+      <button><Link to="/login">Login</Link></button>
+      <button><Link to="/register">SignUp</Link></button>
+      </nav>
 
       <Home/>
-      
-      <button>
-      <Link to="/login">Login</Link>
-      </button>
 
-      <button>
-      <Link to="/register">SignUp</Link>
-      </button>
-      </nav>
 
       <Outlet />
       </>
