@@ -10,6 +10,7 @@ function App() {
     <div>
        <h1 className="text-3xl font-bold underline bg-red-600">
       Hello world!
+      test
     </h1>
       <>
       <nav>
