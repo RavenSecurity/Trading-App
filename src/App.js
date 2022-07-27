@@ -8,9 +8,6 @@ import { Outlet, Link, Navigate } from "react-router-dom";
 function App() {
   return (
     <div>
-       <h1 className="text-3xl font-bold underline bg-red-600">
-      Hello world!
-    </h1>
       <>
       <nav>
       <h1><Link to="/home">Home</Link></h1>
