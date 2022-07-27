@@ -1,16 +1,17 @@
 import './App.css';
 import React from "react";
 
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, Navigate } from "react-router-dom";
 
-
-import Home from "./Home";
 
 
 function App() {
   return (
     <div>
       <>
+      <nav>
+      <h1><Link to="/home">Home</Link></h1>
+
 
       <nav className='Navbar'>
         
@@ -38,6 +39,7 @@ function App() {
       <button className = "Signup">
       <Link to="/register">SignUp</Link>
       </button>
+
 
       </nav>
 
