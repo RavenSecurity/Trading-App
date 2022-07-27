@@ -12,34 +12,39 @@ function App() {
     <div>
       <>
 
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
+      <nav className='Navbar'>
         
       <h1>
       <Link to="/">Home</Link>
       </h1>
 
-      <a>
+      <p>
       <Link to="/pricelist">Price list</Link>
-      </a>
+      </p>
+      <p>
+       <Link to ="/">For developers</Link>
+        </p>
+    
+      <p>
+      <Link to ="/">Contact</Link>
+        </p>
+      
+     
 
+      <button className = "Login">
+      <Link to="/login">Login</Link>
+      </button>
 
+      <button className = "Signup">
+      <Link to="/register">SignUp</Link>
+      </button>
+
+      </nav>
 
 
       <Home/>
       
-      <button>
-      <Link to="/login">Login</Link>
-      </button>
-
-      <button>
-      <Link to="/register">SignUp</Link>
-      </button>
-      </nav>
+    
 
       <Outlet />
       </>
