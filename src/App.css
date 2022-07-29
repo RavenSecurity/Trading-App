@@ -1,14 +1,19 @@
-.App {
-  text-align: center;
+body{
+  background: #1E1E1E;
 }
+.Para{
+  position: absolute;
+  width: 540px;
+  height: 28px;
+  left: 231px;
+  top: 408px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
+
 }
